@@ -16,5 +16,5 @@ class SignupActivity: AppCompatActivity() {
         val signup_btn=findViewById<Button>(R.id.signup_signup_btn)
         val login_btn=findViewById<Button>(R.id.signup_login_btn)
 
-    }
+
 }

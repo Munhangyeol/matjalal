@@ -3,7 +3,9 @@ package com.example.myapplication
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+
 import android.widget.EditText
+
 import androidx.appcompat.app.AppCompatActivity
 
 class LoginActivity:AppCompatActivity() {
@@ -28,6 +30,15 @@ class LoginActivity:AppCompatActivity() {
             val intent=Intent(this,SignupActivity::class.java)
             startActivity(intent)
         }
+        val signupBtn= findViewById<Button>(R.id.loginscreen_signup_btn)
+        val loginBtn=findViewById<Button>(R.id.loginscreen_login_btn)
+        val googleBtn=findViewById<Button>(R.id.loginscreen_googlelogin_btn)
+        signupBtn.setOnClickListener{
+            val intent=Intent(this,SignupActivity::class.java)
+            startActivity(intent)
+
+        }
+
     }
 
 }
