@@ -1,0 +1,17 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/home"
+        android:title="추천" />
+    <item
+        android:id="@+id/action_home1"
+        android:icon="@drawable/lucide_user"
+        android:title="내 정보"
+        tools:ignore="DuplicateIds" />
+    <item
+        android:id="@+id/action_home2"
+        android:icon="@drawable/vector"
+        android:title="리뷰"
+        tools:ignore="DuplicateIds" />
+</menu>

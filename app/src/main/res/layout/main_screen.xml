@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="조용한"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview8" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="활발한"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toEndOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview8" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="고급스러운"
+            android:textColor="#FFFAEC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button6"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview8" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="적당한"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview8" />
+
+        <TextView
+            android:id="@+id/main_name_textview8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mont"
+            android:text="분위기"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="416dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="한식"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview6" />
+
+        <TextView
+            android:id="@+id/main_name_textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mont"
+            android:text="음식종류"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="297dp" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="중식"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toEndOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview6" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="일식"
+            android:textColor="#FFFAEC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button6"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview6" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="양식"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview6" />
+
+        <TextView
+            android:id="@+id/main_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/mont"
+            android:text="문한결님"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/main_name_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/mont"
+            android:text="문한결님의 맛집취향은?"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="28dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="73dp"
+            app:layout_constraintStart_toEndOf="@+id/main_name_textview"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/emoji" />
+
+        <TextView
+            android:id="@+id/main_name_textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mont"
+            android:text="인원수"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="1명"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview3" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="2명"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview3" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="3~4명"
+            android:textColor="#FFFAEC"
+            app:layout_constraintStart_toEndOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview3" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="28dp"
+            android:layout_height="31dp"
+            app:srcCompat="@drawable/Emoji"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="73dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_button2"
+            android:backgroundTint="#DADADA"
+            android:text="5명~"
+            android:textColor="#FFFAEC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button6"
+            app:layout_constraintTop_toBottomOf="@+id/main_name_textview3" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#FFFFFF"
+            app:itemTextColor="#A6A1A1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_navigation_menu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

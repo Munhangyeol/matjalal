@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:fontFamily="@font/mont"
-        android:text="Login"
+        android:text="Signup"
         android:textColor="#000000"
         android:textSize="37dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/login_id_edittext"
+        android:id="@+id/signup_id_edittext"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginTop="73dp"
@@ -34,7 +34,23 @@
         app:layout_constraintTop_toBottomOf="@+id/Signup" />
 
     <EditText
-        android:id="@+id/login_password_edittext"
+        android:id="@+id/signup_phonenumber_edittext"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#FFFAEC"
+        android:ems="10"
+        android:hint="    휴대폰 번호"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#A0A3BD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_id_edittext" />
+
+    <EditText
+        android:id="@+id/signup_password_edittext"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
@@ -45,30 +61,28 @@
         android:inputType="textEmailAddress"
         android:textColorHint="#A0A3BD"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_id_edittext" />
+        app:layout_constraintTop_toBottomOf="@+id/signup_phonenumber_edittext" />
 
-    <Button
-        android:id="@+id/login_login_btn"
+    <EditText
+        android:id="@+id/signup_doublepassword_edittext"
         android:layout_width="340dp"
         android:layout_height="60dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/round_button3"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#FFFAEC"
         android:ems="10"
-        android:fontFamily="@font/mont"
-        android:gravity="center"
-        android:hint="로그인"
+        android:hint="      패스워드를 한 번 더 입력해주세요  "
         android:inputType="textEmailAddress"
-        android:textColorHint="#FE7A00"
-        android:textSize="18dp"
+        android:textColorHint="#A0A3BD"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/signup_password_edittext" />
 
     <Button
-        android:id="@+id/login_signup_btn"
+        android:id="@+id/signup_signup_btn"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
@@ -78,15 +92,15 @@
         android:gravity="center"
         android:hint="회원가입"
         android:inputType="textEmailAddress"
-        android:textColorHint="#FE7A00"
+        android:textColorHint="#FF7A00"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_login_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/signup_doublepassword_edittext" />
 
     <Button
-        android:id="@+id/login_google_btn"
+        android:id="@+id/signup_login_btn"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
@@ -94,24 +108,13 @@
         android:ems="10"
         android:fontFamily="@font/mont"
         android:gravity="center"
-        android:hint="Google로 로그인하기"
+        android:hint="로그인"
         android:inputType="textEmailAddress"
         android:textColorHint="#FE7A00"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_login_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/signup_signup_btn" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/mont"
-        android:text="Forget Password"
-        android:textColor="#FF7A00"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_password_edittext" />
 </androidx.constraintlayout.widget.ConstraintLayout>
